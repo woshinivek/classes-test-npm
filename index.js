@@ -10,32 +10,32 @@
 // console.log(myArray);
 
 // Setup
-const contacts = [
-  {
-    firstName: "Akira",
-    lastName: "Laine",
-    number: "0543236543",
-    likes: ["Pizza", "Coding", "Brownie Points"],
-  },
-  {
-    firstName: "Harry",
-    lastName: "Potter",
-    number: "0994372684",
-    likes: ["Hogwarts", "Magic", "Hagrid"],
-  },
-  {
-    firstName: "Sherlock",
-    lastName: "Holmes",
-    number: "0487345643",
-    likes: ["Intriguing Cases", "Violin"],
-  },
-  {
-    firstName: "Kristian",
-    lastName: "Vos",
-    number: "unknown",
-    likes: ["JavaScript", "Gaming", "Foxes"],
-  },
-];
+// const contacts = [
+//   {
+//     firstName: "Akira",
+//     lastName: "Laine",
+//     number: "0543236543",
+//     likes: ["Pizza", "Coding", "Brownie Points"],
+//   },
+//   {
+//     firstName: "Harry",
+//     lastName: "Potter",
+//     number: "0994372684",
+//     likes: ["Hogwarts", "Magic", "Hagrid"],
+//   },
+//   {
+//     firstName: "Sherlock",
+//     lastName: "Holmes",
+//     number: "0487345643",
+//     likes: ["Intriguing Cases", "Violin"],
+//   },
+//   {
+//     firstName: "Kristian",
+//     lastName: "Vos",
+//     number: "unknown",
+//     likes: ["JavaScript", "Gaming", "Foxes"],
+//   },
+// ];
 
 // function lookUpProfile(name, prop) {
 //   for (let i = 0; i < contacts.length; i++) {
@@ -80,7 +80,7 @@ const contacts = [
 // console.log("Bob: ", lookUpProfile("Bob", "number"));
 // console.log(lookUpProfile("Akira", "address"));
 
-console.log("sherlok: ", lookUpProfile("Sherlock", "likes"));
+// console.log("sherlok: ", lookUpProfile("Sherlock", "likes"));
 
 // We have an array of objects representing
 // different people in our contacts lists.
@@ -116,3 +116,38 @@ console.log("sherlok: ", lookUpProfile("Sherlock", "likes"));
 //       console.log("No such property.");
 //       continue;
 //     }
+
+// function randomNumber(num) {
+//   //   return Math.random() + 1;
+//   return Math.random() * (10 - 1) + 1;
+// }
+
+// console.log(randomNumber());
+
+// function countup(n) {
+//   if (n < 1) {
+//     return [];
+//   } else {
+//     const countArray = countup(n - 1);
+//     console.log(countArray);
+
+//     countArray.push(n);
+//     return countArray;
+//   }
+// }
+
+function countup(n) {
+  if (n < 1) {
+    return [];
+  } else {
+    console.log("hi: ", countup(n - 1));
+
+    const countArray = countup(n - 1);
+    console.log(countArray);
+
+    countArray.push(n);
+    return countArray;
+  }
+}
+
+console.log(countup(2));
