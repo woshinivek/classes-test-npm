@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/woshinivek/classes-test-npm/issues"
   },
-  "homepage": "https://github.com/woshinivek/classes-test-npm#readme"
+  "homepage": "https://github.com/woshinivek/classes-test-npm#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.52.2",
+    "scss": "^0.2.4"
+  },
+  "dependencies": {
+    "src": "^1.1.2"
+  }
 }

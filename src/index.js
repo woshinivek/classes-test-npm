@@ -1,13 +1,23 @@
-// const myArray = [];
-// let i = 5;
+import "./sass/main.scss";
 
-// while (i >= 0) {
-//   myArray.push(i);
+const myArray = [];
+let i = 5;
 
-//   i -= 1;
-// }
+while (i >= 0) {
+  myArray.push(i);
 
-// console.log(myArray);
+  i -= 1;
+}
+
+console.log(myArray);
+
+// const hi = 3,
+//   b = 4,
+//   ji = 90;
+
+console.log("hi: ", hi);
+console.log("b: ", b);
+console.log("ji: ", ji);
 
 // Setup
 // const contacts = [
@@ -136,18 +146,18 @@
 //   }
 // }
 
-function countup(n) {
-  if (n < 1) {
-    return [];
-  } else {
-    console.log("hi: ", countup(n - 1));
+// function countup(n) {
+//   if (n < 1) {
+//     return [];
+//   } else {
+//     console.log("hi: ", countup(n - 1));
 
-    const countArray = countup(n - 1);
-    console.log(countArray);
+//     const countArray = countup(n - 1);
+//     console.log(countArray);
 
-    countArray.push(n);
-    return countArray;
-  }
-}
+//     countArray.push(n);
+//     return countArray;
+//   }
+// }
 
-console.log(countup(2));
+// console.log(countup(2));
