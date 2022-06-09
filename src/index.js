@@ -1,5 +1,7 @@
 import "./sass/main.scss";
 import "./js/typed.js";
+import "./js/tippy.js";
+import "./js/flatpickr.js";
 
 // const myArray = [];
 // let i = 5;
