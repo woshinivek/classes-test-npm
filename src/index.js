@@ -1,23 +1,20 @@
 import "./sass/main.scss";
+import "./js/typed.js";
 
-const myArray = [];
-let i = 5;
+// const myArray = [];
+// let i = 5;
 
-while (i >= 0) {
-  myArray.push(i);
+// while (i >= 0) {
+//   myArray.push(i);
 
-  i -= 1;
-}
+//   i -= 1;
+// }
 
-console.log(myArray);
+// console.log(myArray);
 
 // const hi = 3,
 //   b = 4,
 //   ji = 90;
-
-console.log("hi: ", hi);
-console.log("b: ", b);
-console.log("ji: ", ji);
 
 // Setup
 // const contacts = [
