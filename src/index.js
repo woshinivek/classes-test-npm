@@ -2,6 +2,7 @@ import "./sass/main.scss";
 import "./js/typed.js";
 import "./js/tippy.js";
 import "./js/flatpickr.js";
+import "./js/pnotify.js";
 
 // const myArray = [];
 // let i = 5;

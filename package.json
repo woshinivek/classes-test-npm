@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/woshinivek/classes-test-npm#readme",
   "devDependencies": {
+    "@pnotify/core": "^5.2.0",
     "parcel-bundler": "^1.12.5",
     "sass": "^1.52.2",
     "scss": "^0.2.4"
