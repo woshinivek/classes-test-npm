@@ -23,3 +23,53 @@ function onBtnClick() {
 }
 
 console.log(defaults);
+
+// function mult(x) {
+//   let total = 1;
+
+//   for (let i = 0; i < x; i++) {
+//     total *= i + 1;
+//   }
+
+//   return total;
+// }
+
+// console.log(mult(5));
+
+//---------------------------------------
+
+// function factorial(n) {
+//   // Если мы пытаемся найти факториал 1,
+//   // возвращаем 1 — это базовый случай.
+//   if (n <= 1) {
+//     return 1;
+//   }
+
+//   // В остальных случаях
+//   // возвращаем произведение n
+//   // на факториал предыдущего числа —
+//   // таким образом мы от n дойдём до 1,
+//   // перебрав каждое число.
+
+//   return n * factorial(n - 1);
+// }
+
+// factorial(5); // 120
+
+// -------------------------------------------------------
+
+// function countdown(n) {
+//   if (n < 1) {
+//     return [];
+//   } else {
+//     const countArr = countdown(n - 1);
+//     countArr.unshift(n);
+
+//     return countArr;
+//   }
+// }
+// Only change code above this line
+
+// console.log(countdown(5));
+
+// -------------------------------------------------------
