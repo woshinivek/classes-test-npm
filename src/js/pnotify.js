@@ -22,7 +22,7 @@ function onBtnClick() {
   //   });
 }
 
-console.log(defaults);
+// console.log(defaults);
 
 // function mult(x) {
 //   let total = 1;
