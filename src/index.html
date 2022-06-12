@@ -32,16 +32,18 @@
             <div class="cords-inputs">
               <label for="robot_coordinates-x" class="label">
                 ROBOT COORDINATES X
-                <input type="text" id="robot_coordinates-x" />
+                <input type="number" id="robot_coordinates-x" name="x" />
               </label>
 
               <label for="robot_coordinates-y" class="label">
                 ROBOT COORDINATES Y
-                <input type="text" id="robot_coordinates-y" />
+                <input type="number" id="robot_coordinates-y" name="y" />
               </label>
             </div>
 
             <button type="submit" class="button-action">ACTION</button>
+
+            <p class="coords__descr">COORDINATES MUST BE NOT MORE THAN 350</p>
           </form>
 
           <div class="robot__field">
@@ -52,14 +54,14 @@
             </div>
           </div>
 
-          <div class="control-btns">
+          <!-- <div class="control-btns">
             <p class="control-btns__dscr"># MANUAL CONTROL</p>
 
             <button class="button-left" data-action="left">LEFT</button>
             <button class="button-right" data-action="right">RIGHT</button>
             <button class="button-down" data-action="down">DOWN</button>
             <button class="button-up" data-action="up">UP</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>

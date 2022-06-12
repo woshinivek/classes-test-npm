@@ -1,12 +1,26 @@
-const robotWrapperRef = document.querySelector(".robot-icon__wrapper");
+const formFieldRef = document.querySelector(".form-field");
+const robotIconWrapperRef = document.querySelector(".robot-icon__wrapper");
+const robotFieldRef = document.querySelector(".robot__field");
 
-const controlBtnsRef = document.querySelector(".control-btns");
+formFieldRef.addEventListener("submit", onFormSubmit);
 
-controlBtnsRef.addEventListener("click", controlBtnsRefClick);
+const coords = {};
 
-function controlBtnsRefClick(evt) {
-  console.log(evt);
-  //   if (evt.traget.nodeName === "BUTTON") {
-  //     console.log("botton");
-  //   }
+function onFormSubmit(evt) {
+  evt.preventDefault();
+
+  const formData = new FormData(evt.target);
+  const submittedData = {};
+
+  formData.forEach((value, key) => {
+    submittedData[key] = Number(value);
+  });
+
+  if (
+    submittedData["x"] > robotFieldRef.clientWidth - 50 ||
+    submittedData["y"] > robotFieldRef.clientHeight - 50
+  ) {
+    return;
+  }
+  robotIconWrapperRef.style.transform = `translate(${submittedData["x"]}px, ${submittedData["y"]}px)`;
 }
