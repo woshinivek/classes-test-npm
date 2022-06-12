@@ -14,7 +14,7 @@ const galleryMarkup = galleryItems
 siema.insertAdjacentHTML("afterbegin", galleryMarkup);
 
 const mySiema = new Siema({
-  duration: 500,
+  duration: 200,
   perPage: 2,
 });
 

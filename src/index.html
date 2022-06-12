@@ -25,6 +25,45 @@
       <button class="next">next</button>
     </div>
 
+    <section id="robot">
+      <div class="container">
+        <div class="robot-wrapper">
+          <form action="" class="form-field">
+            <div class="cords-inputs">
+              <label for="robot_coordinates-x" class="label">
+                ROBOT COORDINATES X
+                <input type="text" id="robot_coordinates-x" />
+              </label>
+
+              <label for="robot_coordinates-y" class="label">
+                ROBOT COORDINATES Y
+                <input type="text" id="robot_coordinates-y" />
+              </label>
+            </div>
+
+            <button type="submit" class="button-action">ACTION</button>
+          </form>
+
+          <div class="robot__field">
+            <div class="robot-icon__wrapper">
+              <svg class="robot" width="50" height="50">
+                <use href="./img/sprite.svg#robot"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="control-btns">
+            <p class="control-btns__dscr"># MANUAL CONTROL</p>
+
+            <button class="button-left" data-action="left">LEFT</button>
+            <button class="button-right" data-action="right">RIGHT</button>
+            <button class="button-down" data-action="down">DOWN</button>
+            <button class="button-up" data-action="up">UP</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="index.js"></script>
   </body>
 </html>

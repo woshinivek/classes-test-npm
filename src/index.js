@@ -4,6 +4,7 @@ import "./js/tippy.js";
 import "./js/flatpickr.js";
 import "./js/pnotify.js";
 import "./js/siema.js";
+import "./js/robot/robot.js";
 
 // const myArray = [];
 // let i = 5;

@@ -1,0 +1,46 @@
+.label + .label {
+  margin-left: 15px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.cords-inputs {
+  margin-bottom: 15px;
+}
+
+#robot {
+  padding: 50px;
+}
+
+.robot-icon__wrapper {
+  color: black;
+}
+
+.robot {
+  fill: currentColor;
+}
+
+.robot-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.robot__field {
+  outline: 1px solid tomato;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.37);
+  width: 400px;
+  height: 400px;
+  margin-bottom: 15px;
+}
+
+.control-btns__dscr {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
