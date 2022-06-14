@@ -21,11 +21,11 @@ const mySiema = new Siema({
 document.querySelector(".prev").addEventListener("click", () => mySiema.prev());
 document.querySelector(".next").addEventListener("click", () => mySiema.next());
 
-console.dir(mySiema);
+// console.dir(mySiema);
 
 const styleRef = document.querySelectorAll(
   "div[style='float: left; width: 4.16667%;']"
 );
 
 styleRef.forEach((img) => (img.style.backgroundColor = "#ab9595"));
-console.log(styleRef);
+// console.log(styleRef);

@@ -17,7 +17,7 @@
 
 .robot-icon__wrapper {
   display: inline-block;
-  color: black;
+  // color: black;
 }
 
 .robot {
@@ -31,7 +31,6 @@
 }
 
 .robot__field {
-  outline: 1px solid tomato;
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.37);
   width: 400px;
   height: 400px;
@@ -44,4 +43,8 @@
   font-size: 18px;
   font-weight: 100;
   margin-bottom: 10px;
+}
+
+.button-action {
+  margin-bottom: 15px;
 }
